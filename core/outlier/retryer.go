@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/alibaba/sentinel-golang/logging"
+	"github.com/Danceiny/sentinel-golang/logging"
 )
 
 var (

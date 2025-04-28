@@ -1,9 +1,9 @@
-module github.com/alibaba/sentinel-golang/pkg/adapters/goframe
+module github.com/Danceiny/sentinel-golang/pkg/adapters/goframe
 
 go 1.18
 
 require (
-	github.com/alibaba/sentinel-golang v1.0.4
+	github.com/Danceiny/sentinel-golang v1.0.4
 	github.com/gogf/gf/v2 v2.6.4
 	github.com/stretchr/testify v1.8.2
 )

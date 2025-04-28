@@ -15,14 +15,14 @@
 package api
 
 import (
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/core/circuitbreaker"
-	"github.com/alibaba/sentinel-golang/core/flow"
-	"github.com/alibaba/sentinel-golang/core/hotspot"
-	"github.com/alibaba/sentinel-golang/core/isolation"
-	"github.com/alibaba/sentinel-golang/core/log"
-	"github.com/alibaba/sentinel-golang/core/stat"
-	"github.com/alibaba/sentinel-golang/core/system"
+	"github.com/Danceiny/sentinel-golang/core/base"
+	"github.com/Danceiny/sentinel-golang/core/circuitbreaker"
+	"github.com/Danceiny/sentinel-golang/core/flow"
+	"github.com/Danceiny/sentinel-golang/core/hotspot"
+	"github.com/Danceiny/sentinel-golang/core/isolation"
+	"github.com/Danceiny/sentinel-golang/core/log"
+	"github.com/Danceiny/sentinel-golang/core/stat"
+	"github.com/Danceiny/sentinel-golang/core/system"
 )
 
 var globalSlotChain = BuildDefaultSlotChain()

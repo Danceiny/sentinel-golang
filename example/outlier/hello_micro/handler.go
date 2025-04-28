@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	proto "github.com/alibaba/sentinel-golang/pkg/adapters/micro/test"
+	proto "github.com/Danceiny/sentinel-golang/pkg/adapters/micro/test"
 )
 
 var nodeCrash = false // Set the flag for whether to simulate node crash

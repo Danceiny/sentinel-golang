@@ -19,7 +19,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/alibaba/sentinel-golang/logging"
+	"github.com/Danceiny/sentinel-golang/logging"
 )
 
 type ExitHandler func(entry *SentinelEntry, ctx *EntryContext) error

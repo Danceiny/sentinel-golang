@@ -18,8 +18,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/alibaba/sentinel-golang/core/flow"
-	"github.com/alibaba/sentinel-golang/core/system"
+	"github.com/Danceiny/sentinel-golang/core/flow"
+	"github.com/Danceiny/sentinel-golang/core/system"
 	"github.com/stretchr/testify/assert"
 )
 

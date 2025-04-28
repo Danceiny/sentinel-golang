@@ -5,13 +5,13 @@ go 1.24
 toolchain go1.24.2
 
 replace (
-	github.com/alibaba/sentinel-golang => ../../../
-	github.com/alibaba/sentinel-golang/pkg/adapters/kratos => ../../../pkg/adapters/kratos
+	github.com/Danceiny/sentinel-golang => ../../../
+	github.com/Danceiny/sentinel-golang/pkg/adapters/kratos => ../../../pkg/adapters/kratos
 )
 
 require (
-	github.com/alibaba/sentinel-golang v1.0.4
-	github.com/alibaba/sentinel-golang/pkg/adapters/kratos v0.0.0-00010101000000-000000000000
+	github.com/Danceiny/sentinel-golang v1.0.4
+	github.com/Danceiny/sentinel-golang/pkg/adapters/kratos v0.0.0-00010101000000-000000000000
 	github.com/go-kratos/examples v0.0.0-20240528100830-79c95e3d0934
 	github.com/go-kratos/kratos/contrib/registry/etcd/v2 v2.0.0-20240902085548-6963a8a438be
 	github.com/go-kratos/kratos/v2 v2.8.0

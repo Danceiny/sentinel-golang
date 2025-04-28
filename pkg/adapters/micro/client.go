@@ -5,9 +5,9 @@ import (
 
 	"github.com/micro/go-micro/v2/client"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/core/outlier"
+	sentinel "github.com/Danceiny/sentinel-golang/api"
+	"github.com/Danceiny/sentinel-golang/core/base"
+	"github.com/Danceiny/sentinel-golang/core/outlier"
 )
 
 type clientWrapper struct {

@@ -20,9 +20,9 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/alibaba/sentinel-golang/core/circuitbreaker"
-	"github.com/alibaba/sentinel-golang/logging"
-	"github.com/alibaba/sentinel-golang/util"
+	"github.com/Danceiny/sentinel-golang/core/circuitbreaker"
+	"github.com/Danceiny/sentinel-golang/logging"
+	"github.com/Danceiny/sentinel-golang/util"
 )
 
 var (

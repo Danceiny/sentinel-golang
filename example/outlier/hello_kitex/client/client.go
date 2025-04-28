@@ -10,10 +10,10 @@ import (
 	"github.com/cloudwego/kitex/client"
 	etcd "github.com/kitex-contrib/registry-etcd"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/circuitbreaker"
-	"github.com/alibaba/sentinel-golang/core/outlier"
-	"github.com/alibaba/sentinel-golang/pkg/adapters/kitex"
+	sentinel "github.com/Danceiny/sentinel-golang/api"
+	"github.com/Danceiny/sentinel-golang/core/circuitbreaker"
+	"github.com/Danceiny/sentinel-golang/core/outlier"
+	"github.com/Danceiny/sentinel-golang/pkg/adapters/kitex"
 )
 
 func initOutlierClient() hello.Client {

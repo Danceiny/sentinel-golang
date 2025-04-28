@@ -5,7 +5,6 @@ go 1.24
 toolchain go1.24.2
 
 require (
-	github.com/alibaba/sentinel-golang v1.0.4
 	github.com/fsnotify/fsnotify v1.9.0
 	github.com/google/uuid v1.6.0
 	github.com/pkg/errors v0.9.1
@@ -38,5 +37,3 @@ require (
 	google.golang.org/protobuf v1.36.5 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace github.com/alibaba/sentinelgo-golang v1.0.4 => github.com/Danceiny/sentinel-golang v0.0.0-20250428214105-86e27fc4124f

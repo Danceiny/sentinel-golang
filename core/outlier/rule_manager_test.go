@@ -18,7 +18,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/alibaba/sentinel-golang/core/circuitbreaker"
+	"github.com/Danceiny/sentinel-golang/core/circuitbreaker"
 )
 
 func clearData() {

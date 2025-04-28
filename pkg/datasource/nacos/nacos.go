@@ -3,9 +3,9 @@ package nacos
 import (
 	"fmt"
 
-	"github.com/alibaba/sentinel-golang/ext/datasource"
-	"github.com/alibaba/sentinel-golang/logging"
-	"github.com/alibaba/sentinel-golang/util"
+	"github.com/Danceiny/sentinel-golang/ext/datasource"
+	"github.com/Danceiny/sentinel-golang/logging"
+	"github.com/Danceiny/sentinel-golang/util"
 	"github.com/nacos-group/nacos-sdk-go/clients/config_client"
 	"github.com/nacos-group/nacos-sdk-go/vo"
 	"github.com/pkg/errors"

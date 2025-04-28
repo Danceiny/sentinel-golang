@@ -19,12 +19,12 @@ import (
 	"math/rand"
 	"time"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/core/config"
-	"github.com/alibaba/sentinel-golang/core/hotspot"
-	"github.com/alibaba/sentinel-golang/core/stat"
-	"github.com/alibaba/sentinel-golang/logging"
+	sentinel "github.com/Danceiny/sentinel-golang/api"
+	"github.com/Danceiny/sentinel-golang/core/base"
+	"github.com/Danceiny/sentinel-golang/core/config"
+	"github.com/Danceiny/sentinel-golang/core/hotspot"
+	"github.com/Danceiny/sentinel-golang/core/stat"
+	"github.com/Danceiny/sentinel-golang/logging"
 )
 
 func main() {

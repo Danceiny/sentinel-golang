@@ -11,11 +11,11 @@ import (
 	"github.com/micro/go-micro/v2/registry"
 	"github.com/micro/go-micro/v2/registry/etcd"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/circuitbreaker"
-	"github.com/alibaba/sentinel-golang/core/outlier"
-	microAdapter "github.com/alibaba/sentinel-golang/pkg/adapters/micro"
-	proto "github.com/alibaba/sentinel-golang/pkg/adapters/micro/test"
+	sentinel "github.com/Danceiny/sentinel-golang/api"
+	"github.com/Danceiny/sentinel-golang/core/circuitbreaker"
+	"github.com/Danceiny/sentinel-golang/core/outlier"
+	microAdapter "github.com/Danceiny/sentinel-golang/pkg/adapters/micro"
+	proto "github.com/Danceiny/sentinel-golang/pkg/adapters/micro/test"
 )
 
 const serviceName = "example.helloworld"

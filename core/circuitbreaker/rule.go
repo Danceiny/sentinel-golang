@@ -17,7 +17,7 @@ package circuitbreaker
 import (
 	"fmt"
 
-	"github.com/alibaba/sentinel-golang/util"
+	"github.com/Danceiny/sentinel-golang/util"
 )
 
 // Strategy represents the strategy of circuit breaker.

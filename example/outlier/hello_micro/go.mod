@@ -5,13 +5,13 @@ go 1.24
 toolchain go1.24.2
 
 replace (
-	github.com/alibaba/sentinel-golang => ../../../
-	github.com/alibaba/sentinel-golang/pkg/adapters/micro => ../../../pkg/adapters/micro
+	github.com/Danceiny/sentinel-golang => ../../../
+	github.com/Danceiny/sentinel-golang/pkg/adapters/micro => ../../../pkg/adapters/micro
 )
 
 require (
-	github.com/alibaba/sentinel-golang v1.0.4
-	github.com/alibaba/sentinel-golang/pkg/adapters/micro v0.0.0-20230626085943-08071855bc67
+	github.com/Danceiny/sentinel-golang v1.0.4
+	github.com/Danceiny/sentinel-golang/pkg/adapters/micro v0.0.0-20230626085943-08071855bc67
 	github.com/micro/go-micro/v2 v2.9.1
 )
 

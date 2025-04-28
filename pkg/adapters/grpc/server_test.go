@@ -6,11 +6,11 @@ import (
 	"os"
 	"testing"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/core/flow"
-	"github.com/alibaba/sentinel-golang/core/stat"
-	"github.com/alibaba/sentinel-golang/util"
+	sentinel "github.com/Danceiny/sentinel-golang/api"
+	"github.com/Danceiny/sentinel-golang/core/base"
+	"github.com/Danceiny/sentinel-golang/core/flow"
+	"github.com/Danceiny/sentinel-golang/core/stat"
+	"github.com/Danceiny/sentinel-golang/util"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 )

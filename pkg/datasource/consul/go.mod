@@ -1,9 +1,9 @@
-module github.com/alibaba/sentinel-golang/pkg/datasource/consul
+module github.com/Danceiny/sentinel-golang/pkg/datasource/consul
 
 go 1.18
 
 require (
-	github.com/alibaba/sentinel-golang v1.0.4
+	github.com/Danceiny/sentinel-golang v1.0.4
 	github.com/hashicorp/consul/api v1.4.0
 	github.com/stretchr/testify v1.6.1
 )

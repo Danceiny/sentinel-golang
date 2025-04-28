@@ -8,7 +8,7 @@ import (
 	"github.com/micro/go-micro/v2/registry"
 	"github.com/micro/go-micro/v2/registry/etcd"
 
-	pb "github.com/alibaba/sentinel-golang/pkg/adapters/micro/test"
+	pb "github.com/Danceiny/sentinel-golang/pkg/adapters/micro/test"
 )
 
 const serviceName = "example.helloworld"

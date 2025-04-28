@@ -18,8 +18,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/util"
+	"github.com/Danceiny/sentinel-golang/core/base"
+	"github.com/Danceiny/sentinel-golang/util"
 )
 
 func BenchmarkBucketLeapArray_AddCount_Concurrency1(b *testing.B) {

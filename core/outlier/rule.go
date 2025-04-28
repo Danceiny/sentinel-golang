@@ -15,7 +15,7 @@
 package outlier
 
 import (
-	"github.com/alibaba/sentinel-golang/core/circuitbreaker"
+	"github.com/Danceiny/sentinel-golang/core/circuitbreaker"
 )
 
 type RecoveryCheckFunc func(address string) bool

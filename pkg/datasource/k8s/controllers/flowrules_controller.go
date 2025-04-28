@@ -20,8 +20,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/alibaba/sentinel-golang/core/flow"
-	"github.com/alibaba/sentinel-golang/logging"
+	"github.com/Danceiny/sentinel-golang/core/flow"
+	"github.com/Danceiny/sentinel-golang/logging"
 	"github.com/go-logr/logr"
 	"github.com/pkg/errors"
 	k8sApiError "k8s.io/apimachinery/pkg/api/errors"
@@ -29,7 +29,7 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	datasourcev1 "github.com/alibaba/sentinel-golang/pkg/datasource/k8s/api/v1alpha1"
+	datasourcev1 "github.com/Danceiny/sentinel-golang/pkg/datasource/k8s/api/v1alpha1"
 )
 
 // FlowRulesReconciler reconciles a FlowRules object

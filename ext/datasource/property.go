@@ -17,7 +17,7 @@ package datasource
 import (
 	"reflect"
 
-	"github.com/alibaba/sentinel-golang/logging"
+	"github.com/Danceiny/sentinel-golang/logging"
 	"github.com/pkg/errors"
 )
 

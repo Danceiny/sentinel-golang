@@ -3,8 +3,8 @@ package kitex
 import (
 	"context"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/base"
+	sentinel "github.com/Danceiny/sentinel-golang/api"
+	"github.com/Danceiny/sentinel-golang/core/base"
 	"github.com/cloudwego/kitex/pkg/endpoint"
 )
 

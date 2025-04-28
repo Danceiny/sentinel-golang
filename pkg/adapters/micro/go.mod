@@ -1,13 +1,13 @@
-module github.com/alibaba/sentinel-golang/pkg/adapters/micro
+module github.com/Danceiny/sentinel-golang/pkg/adapters/micro
 
 go 1.24
 
 toolchain go1.24.2
 
-replace github.com/alibaba/sentinel-golang => ../../../
+replace github.com/Danceiny/sentinel-golang => ../../../
 
 require (
-	github.com/alibaba/sentinel-golang v1.0.4
+	github.com/Danceiny/sentinel-golang v1.0.4
 	github.com/golang/protobuf v1.5.3
 	github.com/micro/go-micro/v2 v2.9.1
 	github.com/stretchr/testify v1.10.0

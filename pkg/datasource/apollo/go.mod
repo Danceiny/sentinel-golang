@@ -1,13 +1,13 @@
-module github.com/alibaba/sentinel-golang/pkg/datasource/apollo
+module github.com/Danceiny/sentinel-golang/pkg/datasource/apollo
 
 go 1.24
 
 toolchain go1.24.2
 
-replace github.com/alibaba/sentinel-golang => ../../../
+replace github.com/Danceiny/sentinel-golang => ../../../
 
 require (
-	github.com/alibaba/sentinel-golang v1.0.4
+	github.com/Danceiny/sentinel-golang v1.0.4
 	github.com/apolloconfig/agollo/v4 v4.0.9
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.10.0

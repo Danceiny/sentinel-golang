@@ -17,9 +17,9 @@ package stat
 import (
 	"sync/atomic"
 
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/core/config"
-	sbase "github.com/alibaba/sentinel-golang/core/stat/base"
+	"github.com/Danceiny/sentinel-golang/core/base"
+	"github.com/Danceiny/sentinel-golang/core/config"
+	sbase "github.com/Danceiny/sentinel-golang/core/stat/base"
 )
 
 type BaseStatNode struct {

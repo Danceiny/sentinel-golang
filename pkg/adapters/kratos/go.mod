@@ -1,13 +1,13 @@
-module github.com/alibaba/sentinel-golang/pkg/adapters/kitex
+module github.com/Danceiny/sentinel-golang/pkg/adapters/kitex
 
 go 1.24
 
 toolchain go1.24.2
 
-replace github.com/alibaba/sentinel-golang => ../../../
+replace github.com/Danceiny/sentinel-golang => ../../../
 
 require (
-	github.com/alibaba/sentinel-golang v1.0.4
+	github.com/Danceiny/sentinel-golang v1.0.4
 	github.com/go-kratos/kratos/v2 v2.8.0
 )
 

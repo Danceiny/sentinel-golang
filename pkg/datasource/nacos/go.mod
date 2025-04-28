@@ -1,9 +1,9 @@
-module github.com/alibaba/sentinel-golang/pkg/datasource/nacos
+module github.com/Danceiny/sentinel-golang/pkg/datasource/nacos
 
 go 1.18
 
 require (
-	github.com/alibaba/sentinel-golang v1.0.4
+	github.com/Danceiny/sentinel-golang v1.0.4
 	github.com/nacos-group/nacos-sdk-go v1.0.8
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.6.1

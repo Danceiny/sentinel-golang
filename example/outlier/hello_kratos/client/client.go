@@ -13,10 +13,10 @@ import (
 	"github.com/go-kratos/kratos/v2/transport/grpc"
 	clientv3 "go.etcd.io/etcd/client/v3"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/circuitbreaker"
-	"github.com/alibaba/sentinel-golang/core/outlier"
-	"github.com/alibaba/sentinel-golang/pkg/adapters/kratos"
+	sentinel "github.com/Danceiny/sentinel-golang/api"
+	"github.com/Danceiny/sentinel-golang/core/circuitbreaker"
+	"github.com/Danceiny/sentinel-golang/core/outlier"
+	"github.com/Danceiny/sentinel-golang/pkg/adapters/kratos"
 )
 
 const serviceName = "example.helloworld"

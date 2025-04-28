@@ -1,9 +1,9 @@
-module github.com/alibaba/sentinel-golang/pkg/datasource/etcdv3
+module github.com/Danceiny/sentinel-golang/pkg/datasource/etcdv3
 
 go 1.18
 
 require (
-	github.com/alibaba/sentinel-golang v1.0.4
+	github.com/Danceiny/sentinel-golang v1.0.4
 	github.com/coreos/etcd v3.3.25+incompatible
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.6.1

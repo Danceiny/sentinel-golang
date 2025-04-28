@@ -1,8 +1,8 @@
 package flow
 
 import (
-	"github.com/alibaba/sentinel-golang/core/system_metric"
-	"github.com/alibaba/sentinel-golang/logging"
+	"github.com/Danceiny/sentinel-golang/core/system_metric"
+	"github.com/Danceiny/sentinel-golang/logging"
 )
 
 // MemoryAdaptiveTrafficShapingCalculator is a memory adaptive traffic shaping calculator

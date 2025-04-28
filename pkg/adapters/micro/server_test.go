@@ -11,12 +11,12 @@ import (
 	"github.com/micro/go-micro/v2/server"
 	"github.com/stretchr/testify/assert"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/core/flow"
-	"github.com/alibaba/sentinel-golang/core/stat"
-	proto "github.com/alibaba/sentinel-golang/pkg/adapters/micro/test"
-	"github.com/alibaba/sentinel-golang/util"
+	sentinel "github.com/Danceiny/sentinel-golang/api"
+	"github.com/Danceiny/sentinel-golang/core/base"
+	"github.com/Danceiny/sentinel-golang/core/flow"
+	"github.com/Danceiny/sentinel-golang/core/stat"
+	proto "github.com/Danceiny/sentinel-golang/pkg/adapters/micro/test"
+	"github.com/Danceiny/sentinel-golang/util"
 )
 
 const FakeErrorMsg = "fake error for testing"

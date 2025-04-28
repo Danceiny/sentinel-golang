@@ -5,16 +5,16 @@ go 1.24
 toolchain go1.24.2
 
 replace (
-	github.com/alibaba/sentinel-golang => ../../../
-	github.com/alibaba/sentinel-golang/pkg/adapters/kitex => ../../../pkg/adapters/kitex
+	github.com/Danceiny/sentinel-golang => ../../../
+	github.com/Danceiny/sentinel-golang/pkg/adapters/kitex => ../../../pkg/adapters/kitex
 	github.com/apache/thrift => github.com/apache/thrift v0.13.0
 	go.uber.org/multierr => go.uber.org/multierr v1.5.0
 	google.golang.org/grpc => google.golang.org/grpc v1.34.0
 )
 
 require (
-	github.com/alibaba/sentinel-golang v1.0.4
-	github.com/alibaba/sentinel-golang/pkg/adapters/kitex v0.0.0-00010101000000-000000000000
+	github.com/Danceiny/sentinel-golang v1.0.4
+	github.com/Danceiny/sentinel-golang/pkg/adapters/kitex v0.0.0-00010101000000-000000000000
 	github.com/cloudwego/kitex v0.10.3
 	github.com/cloudwego/kitex-examples v0.3.3
 	github.com/kitex-contrib/registry-etcd v0.2.4

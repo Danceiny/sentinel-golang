@@ -6,7 +6,7 @@ import (
 	"github.com/micro/go-micro/v2/client"
 	"github.com/micro/go-micro/v2/server"
 
-	"github.com/alibaba/sentinel-golang/core/base"
+	"github.com/Danceiny/sentinel-golang/core/base"
 )
 
 type (

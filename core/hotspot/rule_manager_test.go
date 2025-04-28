@@ -19,7 +19,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/alibaba/sentinel-golang/core/hotspot/cache"
+	"github.com/Danceiny/sentinel-golang/core/hotspot/cache"
 	"github.com/stretchr/testify/assert"
 )
 
