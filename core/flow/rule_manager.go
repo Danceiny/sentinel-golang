@@ -221,7 +221,10 @@ func onRuleUpdate(rawResRulesMap map[string][]*Rule) (err error) {
 	}
 
 	tcMux.Lock()
-	tcMap = m
+	// NOTICE: partial overwrite update
+	for k, v := range m {
+		tcMap[k] = v
+	}
 	tcMux.Unlock()
 	currentRules = rawResRulesMap
 
@@ -648,4 +651,11 @@ func IsValidRule(rule *Rule) error {
 	}
 
 	return nil
+}
+
+func HasRule(resource string) bool {
+	tcMux.RLock()
+	defer tcMux.RUnlock()
+	_, exist := tcMap[resource]
+	return exist
 }

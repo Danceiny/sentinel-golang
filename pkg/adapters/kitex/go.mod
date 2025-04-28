@@ -1,6 +1,8 @@
 module github.com/alibaba/sentinel-golang/pkg/adapters/kitex
 
-go 1.18
+go 1.22
+
+toolchain go1.24.2
 
 replace github.com/alibaba/sentinel-golang => ../../../
 
