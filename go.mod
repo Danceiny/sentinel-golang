@@ -39,4 +39,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/alibaba/sentinel-golang v1.0.4 => github.com/Danceiny/sentinel-golang v0.0.0-20250428212045-06917e9df1ca
+replace github.com/alibaba/sentinelgo-golang v1.0.4 => github.com/Danceiny/sentinel-golang v0.0.0-20250428214105-86e27fc4124f
