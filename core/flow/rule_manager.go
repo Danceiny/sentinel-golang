@@ -660,15 +660,9 @@ func HasRule(resource string) bool {
 	return exist
 }
 
-func GetResourceRules(resource string) (out []*Rule, err error) {
-	tcMux.RLock()
-	defer tcMux.RUnlock()
-	r, exist := tcMap[resource]
-	if !exist {
-		return nil, errors.New("rule not exist")
+func LoadRule(r *Rule) error {
+	if err := IsValidRule(r); err != nil {
+		return err
 	}
-	for _, tc := range r {
-		out = append(out, tc.BoundRule())
-	}
-	return out, nil
+	return onResourceRuleUpdate(r.Resource, []*Rule{r})
 }
